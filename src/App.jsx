@@ -8,7 +8,7 @@ function App() {
     <div className={styles.container}>
       <h2 className={styles.heading}>List of Names:</h2>
       
-      <ol className={styles.flexContainer}>
+      <ol className={styles.boxContainer}>
         {names.map((name, index) => (
           <li key={index}>{name}</li>
         ))}
