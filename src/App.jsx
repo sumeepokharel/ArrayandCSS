@@ -10,7 +10,7 @@ function App() {
       
       <ol className={styles.boxContainer}>
         {names.map((name, index) => (
-          <li key={index}>{name}</li>
+          <li key={index} className={styles.nameList}>{name}</li>
         ))}
       </ol>
     </div>

@@ -1,18 +1,26 @@
 .container {
     background-color: rgb(172, 95, 96);
     color: #5907e6;
-    text-align: justify;
-    margin: 40px, 20px, 30px, 100px;
+    margin: 40px, 20px, 30px, 10px;
     padding: 30px, 20px, 20px, 10px;
-    height: 700px;
+    height: 500px;
     width: 1000px;
-    float: initial;
     border-block: solid;
-    border-radius: 25%;
     border-color: aqua;
     font-size: xx-large;
+    box-shadow: #5907e6;
+    border-style: initial;
+}
 
-
+.nameList {
+    color: rgb(51, 203, 21);
+    display: flex;
+    background-color: #5e30b5;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px, 20px, 20px, 0px;
+    cursor: pointer;
 }
 
 .heading {
@@ -24,6 +32,5 @@
 .boxContainer {
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
-    margin-left: 400px;
+    margin-left: 2px;
 }
